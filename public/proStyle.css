@@ -1,0 +1,91 @@
+body {
+
+background-image: url(proBackgroundPic1.jpg);
+font-family: Arial, Helvetica, sans-serif;
+
+}
+
+form {
+	border: 3px solid #f1f1f1;
+	
+}
+
+
+input[type=text], input[type=password] {
+
+  width: 30%;
+  padding: 12px 12px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+
+#link {color: white;}
+
+.reg {
+ 
+  padding: 3px 5px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 15%;
+  left: 20%;
+	
+}
+
+button {
+  background-color: #4CAF50;
+  color: white;
+  padding: 12px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 15%;
+  left: 20%;
+  
+}
+h2 {
+	
+	margin: 0 0 20px;
+	line-height: 1;
+    color: white;
+    font-size: 18px;
+    font-weight: 400;	
+}
+
+button:hover {
+  opacity: 0.8;
+}
+
+.img {
+  text-align: center;
+  margin: 24px 0 12px 0;
+}
+
+img.logo {
+  width: 25%;
+  border-radius: 25%;
+}
+
+.info {
+	
+	padding-right: 500px; 
+       text-align:right;
+}
+.info2 {
+	
+	padding-left: 650px; 
+}
+.container {
+  padding: 16px;
+}
+
+
+#link3 {
+   
+  float: right;
+  padding: 1px 18px;  
+	
+}
+

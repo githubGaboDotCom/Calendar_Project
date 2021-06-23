@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title>myLDSApp.com</title>
+		<link rel="stylesheet" type="text/css" href="/proStyle.css" />
+		
+    </head>
+
+<body>
+        
+	<h1>Successfully Registered</h1>
+	<a>*Remember your password should be at least 6 characters</a>
+	<br>
+	<br>
+	<h2>Create Username and Password</h2>
+        <form action="/loginCredentials/index" method="post">
+		<div class="info">
+            <label for="username">Username</label>
+            <input type="text" placeholder="Enter Username" id="username" name="username" required><br>
+            <label for="password">Password</label>
+            <input type="text" placeholder="Enter Password" id="password" name="password" required><br>
+			<label for="password2">Confirm password</label>
+            <input type="text" placeholder="Confirm password" id="password2" name="password2" required><br>
+		</div>
+		<ul>
+		<% if(typeof errors != 'undefined') { %> <% errors.forEach(error=>{ %>
+		<li><%= error.message %></li>
+		<% }) %> <% } %>
+		
+		</ul>
+		<div class="info2">
+            <input type="submit" value="Submit" />
+		</div>
+			
+        </form>
+		
+		<div class="container" style="background-color:#f1f1f1">
+          <a href="/homePage.html">Login to your Account</a>
+	    </div>
+       
+</body>
+
+</html>
